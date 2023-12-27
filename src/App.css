@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+.wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 100px;
+}
+.header {
+  background-color: rgb(185, 185, 185);
+  padding: 20px;
+  margin: 30px 200px;
+  font-display: initial;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+.btn {
+  background-color: rgb(92, 150, 201);
+  color: whitesmoke;
+  border: 2px solid white;
+  padding: 10px;
+  display: flex;
+  float: inline-end;
+  margin-right: 400px;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: rgb(214, 118, 1);
+}
+.accordian {
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  color: antiquewhite;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+}
+
+span {
+  margin: 10px 5px;
+  font-size: 20px;
+  padding: 10px;
+  width: 10px;
+  height: 15px;
+  color: red;
+  border: 5px solid rgb(37, 37, 37);
+  border-radius: 10px;
+  cursor: pointer;
+}

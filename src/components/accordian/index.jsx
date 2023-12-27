@@ -20,6 +20,7 @@ const Accordian = () => {
 
   return (
     <div className="wrapper">
+      <h1 className="header">REACT ACCORDIAN</h1>
       <button
         className="btn"
         onClick={() => setEnableMultipleSelection((prevState) => !prevState)}
